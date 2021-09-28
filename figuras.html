@@ -57,19 +57,15 @@
                     />
                     <br>
 
-                    <div id="containerLado2Triangulo">
-                        <label for="lado2Triangulo"
-                            >Escribe cuanto mide el segundo lado del triángulo:</label
-                        >
-                        <input
-                            id="lado2Triangulo"
-                            type="number"
-                            placeholder="1"
-                            required
-                        />
+                    <label for="lado2Triangulo"
+                        >Escribe cuanto mide el segundo lado del triángulo:</label
+                    >
+                    <input
+                        id="lado2Triangulo"
+                        type="number"
+                        placeholder="1"
+                    />
                     <br>
-                    </div>
-                    
 
                     <label for="baseTriangulo"
                         >Escribe cuanto mide la base del triángulo:</label
@@ -82,7 +78,7 @@
                     />
 
                     <div id="containerAlturaTriangulo">
-                        <label for="alturaTriangulo"
+                        <label for="alturaTriangulo" 
                         >Escribe cuanto mide la altura del triángulo:</label
                         >
                         <input
@@ -92,11 +88,10 @@
                             required
                         />
                         <br>
-                        <button type="button" onclick="calcularPerimetroTriangulo()">Calcular el perímetro</button>
-                        <button type="button" onclick="calcularAreaTriangulo()"">Calcular el área</button>
-                    </div>                                        
-
-                    <button id="btCalcularAlturaIsoceles" type="button" onclick="calcularAlturaTrianguloIsoceles()" hidden>Calcular altura de triángulo isoceles</button>
+                        <button type="button" onclick="calcularPerimetroTriangulo()" id="btCalcularPerimetroTriangulo">Calcular el perímetro</button>
+                        <button type="button" onclick="calcularAreaTriangulo()" id="btCalcularAreaTriangulo"">Calcular el área</button>
+                    </div>
+                    <button type="button" onclick="calcularAlturaTrianguloIsoceles()" id="btCalcularAlturaIsoceles" hidden >Calcular altura de triángulo isoceles</button>
                 </form>
             </fieldset>
         </section>
