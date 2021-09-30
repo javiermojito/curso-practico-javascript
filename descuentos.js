@@ -22,8 +22,6 @@ function calcularPrecioConDescuento(precio, cupon) {
             (precio * porcentajePrecioConDescuento) / 100;
 
         pintarMensaje(`El precio con descuento es: $${precioConDescuento}`);
-
-        return precioConDescuento;
     }
 }
 
