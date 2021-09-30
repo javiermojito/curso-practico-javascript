@@ -16,6 +16,6 @@ function calcularMediaArimetica(lista) {
         return valorAcumulado + nuevoElemento;
     });
 
-    const promedioLista = sumarLista / lista.length;
+    const promedioLista = sumaLista / lista.length;
     return promedioLista;
 }
